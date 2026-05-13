@@ -19,7 +19,7 @@ print ("===== TIPOS NUMÉRICOS =====")
 # EXEMPLO 01 - NUMERO INTEIRO 
 
 # criamos uma variavel chamada numero_inteiro 
-numero_intero = 10
+numero_inteiro = 10
 
 # mostramos o valor 
 print ("Valor:",  numero_intero)
