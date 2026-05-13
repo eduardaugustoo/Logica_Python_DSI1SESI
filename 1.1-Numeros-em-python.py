@@ -53,6 +53,47 @@ print ("---------------")
 
 numero_complexo = 2 + 3j
 print ("valor:", numero_complexo)
-print (tipo:), type (numero_complexo)
+print ("type:") , type (numero_complexo)
 
 print ("---------------")
+
+# EXEMPLO 03 - ACESSANDO CADA PARTE DO NÚMERO
+
+# .real retorna a parte real
+print ("Parte Real:" , numero_complexo.real)
+
+# .imag retorna a parte imaginária 
+print ("Parte imaginária:" , numero_complexo.imag)
+ 
+ #apenas para separar visualmente a saída no terimal
+# print ("\n\n")
+
+## PASSO 02 - CONVERSÃO TIPOS
+
+## Exemplo Clássico:
+## Dados vindos do usuário são texto (string) , muitas vezes é necessario converter eles.
+
+print ("===== Conversões =====")
+
+# float -> int
+valor = int (3.9)
+
+print ("int(3.9):", valor)
+print ( "tipo:", type (valor))
+ 
+ #String -> int
+valor1 = "10"
+print (type(valor1))
+print ("int( valor1):", int (valor1))
+print ("tipo:", type (int(valor1)))
+
+valor2 = int ("10")
+print ('int(10):',valor2)
+print ("tipo", type (valor2))
+
+#int --> float
+valor3 = float (10)
+print ("float(10):", valor3)
+print ("tipo:", type(valor3))
+
+    
